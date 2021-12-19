@@ -12,12 +12,13 @@ p{
     font-family: 'droid sans';
 }
 h1{
-    text-align: left;
-    font-family: 'oswald';
-    text-transform: uppercase;
-    font-size: 16px;
-    color: grey;
-    padding: 0px 0px 7px 5px;
+    font-family: 'Droid serif' ;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 30px;
+    margin: 10px;
+    background: url(assets/misc/grille.png);
 }
 h2{
     font-family: 'oswald';
@@ -27,6 +28,14 @@ h3{
     text-transform: uppercase;
     font-family: 'oswald';
     color: #a2a4a6;
+}
+h4{
+    text-align: left;
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-size: 16px;
+    color: grey;
+    padding: 0px 0px 7px 5px;
 }
 ul{
     margin: 0;
@@ -75,15 +84,7 @@ a{
     border-bottom: 1px solid rgba(224, 218, 218, 0.507);
     margin-bottom: 5px;
 }
-#ligne{
-    font-family: 'Droid serif' ;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: bold;
-    padding: 30px;
-    margin: 10px;
-    background: url(assets/misc/grille.png);
-}
+
 
 /********activity********/
 #golf{
