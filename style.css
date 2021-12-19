@@ -1,0 +1,279 @@
+/***********MAIN**********/
+body{
+    margin: 0px;
+    text-align: center;
+    background:url(assets/misc/grille.png);
+    background-size: cover;
+    font-size: 13px;
+    line-height: 20px;
+    color: grey;
+}
+p{
+    font-family: 'droid sans';
+}
+h1{
+    text-align: left;
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-size: 16px;
+    color: grey;
+    padding: 0px 0px 7px 5px;
+}
+h2{
+    font-family: 'oswald';
+    color: #e87928;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'oswald';
+    color: #a2a4a6;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    text-align: left;
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+/**************CLASS**************/
+.textbloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    width: 100%;
+    text-align: left;
+}
+.textcomment{
+    font-size: 11px;
+    color: rgba(172, 172, 172, 0.664);
+    font-style: italic;
+    line-height: 0px;
+}
+.textlire{
+    font-family: 'droid';
+    font-style: italic;
+    font-weight: bold;
+    /*color: #754242 !important;*/
+}
+/********VIDEO**********/
+#video{
+    margin: auto;
+    padding: 40px 0px 40px 0px;
+}
+/*******ligne service*******/
+#service{
+    border-top: 1px solid rgba(224, 218, 218, 0.507);
+    border-bottom: 1px solid rgba(224, 218, 218, 0.507);
+    margin-bottom: 5px;
+}
+#ligne{
+    font-family: 'Droid serif' ;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 30px;
+    margin: 10px;
+    background: url(assets/misc/grille.png);
+}
+
+/********activity********/
+#golf{
+    width: 210px;
+    height: 330px;
+    padding: 5px 5px 19px 7px;
+    margin: 0px 30px 49px 0px;
+    border: 1px solid rgba(139, 139, 139, 0.342);
+}
+#accrobranchefastfood{
+    margin: 0px 30px 0px 0px;
+    width: 194px;
+    height: 385px;
+}
+#commentaire{
+    width: 470px;
+    height: 131px;
+}
+#siximg{
+    width: 420px;
+    height: 240px;
+}
+#img1, #img2, #img3 {
+    float: left;
+    border: 1px solid rgba(224, 218, 218, 0.507);
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 0px 0px rgb(224 218 218 / 50%);
+    cursor: crosshair;
+}
+
+#img4, #img5, #img6 {
+    float: left;
+    border: 1px solid rgba(224, 218, 218, 0.507);
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 0px 0px rgb(224 218 218 / 50%);
+    cursor: crosshair;
+}
+#img1:active,
+#img2:active,
+#img3:active,
+#img4:active,
+#img5:active,
+#img6:active{
+    transform: scale(5);
+    transition: 0.2s;
+}
+/*******CONTACTER*******/
+#contacter{
+    border-top: 1px solid rgba(224, 218, 218, 0.507);
+    border-bottom: 1px solid rgba(224, 218, 218, 0.507);
+    margin-bottom: 5px;
+}
+#contact{
+    justify-content: space-between;
+    display: flex;
+    height: 205px;
+    padding: 18px 17% 0px 17%;
+    background: url(assets/misc/grille.png);
+    margin: 10px;
+}
+
+#nouscontacter{
+    width: 150px;
+    height: 150px;
+    text-align: left;
+    float: left;
+}
+
+#dernierbillet{
+    width: 195px;
+    height: 150px;
+    text-align: left;
+    float: left;
+
+}
+#derniercommentaire{
+    width: 190px;
+    height: 150px;
+    text-align: left;
+    float: left;
+
+
+}
+#blablaland{
+    width: 192px;
+    height: 105px;
+    text-align: left;
+    float: left;
+
+}
+
+/*COPYRIGHT*/
+footer{
+    height: 79px;
+
+}
+#liencopy{
+    width: 255px;
+    height: 79px;
+    text-align: left;
+    line-height: 8px;
+    font-size: 11px;
+    float: left;
+    margin: 10px 20px 0px 17%;
+    color: grey;
+}
+#icone{
+    float: right;
+    margin: 19px 18% 0px 2%;
+}
+#test{
+    float: left;
+}
+
+/**************NAVBAR*********/
+header{
+    border-bottom: 1px solid rgba(224, 218, 218, 0.507);
+}
+#navbar{
+    background-image: url(assets/misc/grille.png);
+    height: 175px;
+    position: relative;
+    margin-bottom: 15px;
+}
+#logo{
+    position: absolute;
+    top: 17%;
+    left: 14%;
+}
+#hotel{
+    position: absolute;
+    left: 36%;
+    top: 20px;
+    width: 95px;
+}
+#restaurants{
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    width: 110px;
+}
+#services{
+    position: absolute;
+    left: 55%;
+    top: 20px;
+    width: 90px;
+}
+#activites{
+    position: absolute;
+    width: 95px;
+    left: 63%;
+    top: 20px;
+}
+#plus{
+    position: absolute;
+    top: 20px;
+    left: 71%;
+    width: 120px;
+}
+#linehotel{
+    border-bottom: 5px solid #f76900;
+}
+#linerestaurants{
+    border-bottom: 5px solid #fcd04a;
+}
+#lineservices{
+    border-bottom: 5px solid #b9d482;
+}
+#lineactivites{
+    border-bottom: 5px solid #3d92c2;
+}
+#lineplus{
+    border-bottom: 5px solid #c078d0;
+}
+.sousclasse{
+    list-style-type: none;
+    font-family: 'droid sans';
+    font-weight: bold;
+    font-size: 9px;
+    color: grey;
+    padding: 0px 0px 7px 5px;
+}
+/********FIN NAVBAR*********/
+
+/*******petit reglage*******/
+#dernierbillet .textcomment{
+    line-height: 10px;
+}
+#derniercommentaire .textcomment{
+    line-height: 10px;
+}
